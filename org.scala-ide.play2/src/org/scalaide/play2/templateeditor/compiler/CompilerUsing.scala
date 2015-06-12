@@ -45,8 +45,8 @@ import views.html._
         content,
         source,
         playProject.sourceDir,
-        "play.api.templates.Html",
-        "play.api.templates.HtmlFormat",
+        "play.twirl.api.Html",
+        "play.twirl.api.HtmlFormat",
         defaultTemplateImports + playProject.additionalTemplateImports(extension),
         Codec.default,
         inclusiveDot
